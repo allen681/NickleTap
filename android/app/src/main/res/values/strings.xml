@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NickelTap</string>
+    <string name="round_cash_action">Round cash</string>
+    <string name="coin_badge">5¢</string>
+    <string name="settings_title">NickelTap</string>
+    <string name="settings_intro">Choose how cash totals should move to a five-cent amount. At checkout, tap Round cash before selecting Cash.</string>
+    <string name="nearest_title">Nearest nickel</string>
+    <string name="nearest_detail">1¢/2¢ round down; 3¢/4¢ round up. Maximum change: 2¢.</string>
+    <string name="down_title">Always round down</string>
+    <string name="down_detail">Every cash total moves down to the previous nickel.</string>
+    <string name="up_title">Always round up</string>
+    <string name="up_detail">Every cash total moves up to the next nickel.</string>
+    <string name="option_label">%1$s\n%2$s</string>
+    <string name="save_rule">Save cash-rounding rule</string>
+    <string name="current_rule">Current rule: %1$s</string>
+    <string name="saved_rule">Saved: %1$s</string>
+    <string name="local_only_note">This app changes only the open Clover order. It does not process payment, donate money, or send transaction data anywhere.</string>
+    <string name="rounding_title">Rounding cash total…</string>
+    <string name="rounding_message">NickelTap is updating this open Clover order.</string>
+    <string name="account_permission_title">Clover account access required</string>
+    <string name="account_permission_detail">Allow account access so NickelTap can update this Clover order, then try again.</string>
+    <string name="try_again">Try again</string>
+    <string name="return_without_rounding">Return without rounding</string>
+    <string name="already_rounded">Already rounded</string>
+    <string name="already_on_nickel">Already on a nickel</string>
+    <string name="no_adjustment_needed">No additional adjustment was needed. Returning to Clover checkout.</string>
+    <string name="cash_total_ready">Cash total ready</string>
+    <string name="direction_up">up</string>
+    <string name="direction_down">down</string>
+    <plurals name="rounded_result">
+        <item quantity="one">Rounded %1$s by %2$d cent to %3$s.</item>
+        <item quantity="other">Rounded %1$s by %2$d cents to %3$s.</item>
+    </plurals>
+</resources>

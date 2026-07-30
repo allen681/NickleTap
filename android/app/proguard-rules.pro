@@ -1,0 +1,2 @@
+-keep class com.clover.sdk.** { *; }
+-dontwarn com.clover.sdk.**
