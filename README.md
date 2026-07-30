@@ -2,8 +2,6 @@
 
 NickelTap is a local Android app for Clover POS. It adds a **Round cash** action to Clover's standard payment screen. The cashier taps it before selecting Cash, and NickelTap moves the open order total to a five-cent amount.
 
-There is no donation feature, merchant dashboard, OAuth flow, register pairing, remote database, or transaction upload.
-
 ## Checkout behavior
 
 The merchant chooses one rule on each Clover device:
